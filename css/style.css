@@ -6,7 +6,7 @@ body {
   min-height: 2000px;
 }
 .debug {
-  height: 200px;
+  min-height: 200px;
   border: 1px solid red;
 }
 .p-top-30 {
@@ -122,3 +122,13 @@ position: relative;
   border-left: 1px solid black
 }
 /* SECTION 2 */
+
+/* SECTION 2 */
+
+/* SECTION 3 */
+
+#scemo::after {
+  content: "lorem";
+  margin-left: 600px;
+  background-color: red;
+}
