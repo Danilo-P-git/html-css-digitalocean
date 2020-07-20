@@ -127,9 +127,21 @@ position: relative;
 
 /* SECTION 3 */
 
-#scemo:after {
-  content: "lorem";
-  margin-left: 600px;
-  background-color: red;
+.position-relative {
+  position: relative;
+}
+.scemo::after {
+  content: ">";
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 80%;
+}
+.scemo::before {
+  content: "<";
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  right: 80%;
 }
 /* SECTION 3 */
