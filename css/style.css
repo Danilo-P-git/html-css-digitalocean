@@ -45,13 +45,22 @@ body {
 .m-bottom-100 {
   margin-bottom: 100px;
 }
+.m-left-60 {
+  margin-left:60px;
+}
+.m-left-250 {
+  margin-left:250px;
+}
 .btn_generic {
   margin-top: 10px;
   width: 100%;
   padding: 5px 0px;
 }
 .color-grey {
-  background-color: #f3f5f9
+  background-color: #f3f5f9;
+}
+.color-white {
+  background-color: white;
 }
 /* MIX */
 
@@ -59,9 +68,7 @@ body {
 .color-nav {
   background-color: #fff;
 }
-.color {
-  background-color: blue;
-}
+
 .navbar-center {
   padding-left: 150px;
 }
@@ -145,3 +152,43 @@ position: relative;
   right: 80%;
 }
 /* SECTION 3 */
+
+/* SECTION 4 */
+.color-grad {
+  background-image: linear-gradient(#0048c5, #001e99);
+  color: white;
+}
+.bord-bot li:not(:last-child) {
+  border-bottom: 1px solid white;
+}
+.left {
+  float: left;
+  width: 25%
+}
+.center {
+  float: left;
+  width: 50%
+}
+.right {
+  float: left;
+  width: 25%
+}
+/* SECTION 4 */
+
+/* SECTION 5 */
+.arrow-l span {
+  line-height: 300px;
+  font-size: 100px;
+  float: right;
+}
+.arrow-r span {
+  line-height: 300px;
+  font-size: 100px;
+  float: left;
+}
+.heightdef {
+  height: 300px;
+}
+.fa-circle {
+  color: blue;
+}
