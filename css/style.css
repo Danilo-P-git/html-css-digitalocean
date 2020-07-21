@@ -117,6 +117,43 @@ body {
 .color-white {
   background-color: white;
 }
+.font-18 {
+  font-size: 18px;
+}
+.font-20 {
+  font-size: 20px;
+}
+.font-30 {
+  font-size: 30px;
+
+}
+.font-40 {
+  font-size: 40px;
+}
+.font-color-f {
+  color: #fff;
+}
+.font-color-grey {
+color: #b3c7ff;
+}
+.font-color-dgrey {
+  color: #6f7b97;
+}
+.font-color-blue {
+  color: #031c4e;
+}
+.font-color-dgrey2 {
+  color: #5c6a88;
+}
+.jumbotron h1 {
+  color: #fff;
+}
+.jumbotron p {
+  font-weight: 500;
+}
+.jumbotron p small {
+  font-size: 10px;
+}
 /* MIX */
 
 /* POP-UP */
@@ -148,7 +185,7 @@ body {
   left: 100%;
   top: 80%;
 }
-
+/* POP-UP */
 /* NAVBAR */
 .color-nav {
   background-color: #fff;
@@ -175,6 +212,16 @@ body {
 }
 .navbar-inverse .navbar-nav > li > a:hover {
   color: #b3b6dc;
+}
+.navbar-inverse .navbar-nav > li > button:hover {
+  background-color: #006aff;
+  color: #fff;
+}
+.btn-sign {
+  margin-top: 10px;
+  background-color: #fff;
+  border: 1px solid #006aff;
+  color: #006aff;
 }
 /* NAVBAR */
 
@@ -214,6 +261,7 @@ body {
   border-radius: 5px;
   font-size: 13px;
 }
+
 /* JUMBOBLUE */
 
 /* SECTION1 */
@@ -235,7 +283,7 @@ body {
 .bord-list li {
   padding: 10px 10px;
 
-  border-left: 1px solid black
+  border-left: 2px solid #cccccc;
 }
 /* SECTION 2 */
 
