@@ -154,6 +154,9 @@ color: #b3c7ff;
 .jumbotron p small {
   font-size: 10px;
 }
+.def-height {
+  height: 200px;
+}
 /* MIX */
 
 /* POP-UP */
@@ -172,6 +175,9 @@ color: #b3c7ff;
   background-color: #ffffff;
   border: 1px solid transparent;
   border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 9px 1px rgba(135,135,135,1);
+  -moz-box-shadow: 0px 0px 9px 1px rgba(135,135,135,1);
+  box-shadow: 0px 0px 9px 1px rgba(135,135,135,1);
 }
 .pop-up-inside::after {
   content: "";
@@ -184,6 +190,7 @@ color: #b3c7ff;
   position: absolute;
   left: 100%;
   top: 80%;
+
 }
 /* POP-UP */
 /* NAVBAR */
@@ -335,11 +342,18 @@ color: #b3c7ff;
 /* SECTION 4 */
 .color-grad {
   background-image: linear-gradient(#0048c5, #001e99);
-  color: white;
+  color: #fff;
   height: 150%;
+}
+.bord-bot li {
+  padding: 7px 0px;
+
 }
 .bord-bot li:not(:last-child) {
   border-bottom: 1px solid white;
+}
+.color-grad li a {
+  color: #00d7d2;
 }
 .left {
   float: left;
