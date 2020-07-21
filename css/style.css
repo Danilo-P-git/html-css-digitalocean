@@ -56,6 +56,9 @@ body {
   width: 100%;
   padding: 5px 0px;
 }
+.color-b {
+  color: #006aff;
+}
 .color-grey {
   background-color: #f3f5f9;
 }
@@ -106,9 +109,7 @@ body {
 /* JUMBOBLUE */
 
 /* SECTION1 */
-.col-lg-2 {
-position: relative;
-}
+
 /* SECTION1 */
 
 /* Ho provato ad allineare le img dando test a tutto ma poi il respnsive va a farsi benedire */
@@ -137,14 +138,14 @@ position: relative;
 .position-relative {
   position: relative;
 }
-.scemo::after {
+.commas::after {
   content: ">";
   font-size: 50px;
   position: absolute;
   top: 50%;
   left: 80%;
 }
-.scemo::before {
+.commas::before {
   content: "<";
   font-size: 50px;
   position: absolute;
@@ -157,6 +158,7 @@ position: relative;
 .color-grad {
   background-image: linear-gradient(#0048c5, #001e99);
   color: white;
+  height: 150%;
 }
 .bord-bot li:not(:last-child) {
   border-bottom: 1px solid white;
@@ -176,19 +178,40 @@ position: relative;
 /* SECTION 4 */
 
 /* SECTION 5 */
+/* SECTION 5 */
+/* FOOTER */
 .arrow-l span {
   line-height: 300px;
-  font-size: 100px;
+  font-size: 50px;
   float: right;
 }
 .arrow-r span {
   line-height: 300px;
-  font-size: 100px;
+  font-size: 50px;
   float: left;
 }
 .heightdef {
   height: 300px;
 }
-.fa-circle {
-  color: blue;
+[class*="col-"] .fa-circle {
+  color: #1e7cfe;
+  cursor: pointer;
+}
+/* SECTION 5 */
+
+/* FOOTER */
+.foot-color {
+  background-color: #031c4e;
+}
+footer ul li {
+  color: white;
+}
+footer p {
+  color: #8b94a9;
+}
+footer .light {
+  color: #5a6887;
+}
+[class*="fa-"] {
+  color: #7a859d;
 }
