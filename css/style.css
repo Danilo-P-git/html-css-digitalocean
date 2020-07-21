@@ -4,6 +4,7 @@
 }
 body {
   min-height: 2000px;
+  font-family: 'Roboto', sans-serif;
 }
 .debug {
   min-height: 100px;
@@ -75,11 +76,13 @@ body {
 .navbar-center {
   padding-left: 150px;
 }
+
 @media screen and (max-width:992px) and (min-width:768px)  {
   .navbar-center {
     padding-left: 50px;
   }
 }
+
 .navbar-toggle {
   border: none;
 }
@@ -97,14 +100,38 @@ body {
 /* JUMBOBLUE */
 .color-bluejumbo {
   background-color: #0064ff;
+  background-image: url("https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
   min-height: 400px;
 }
 .color-w {
   background-color: white;
   border-radius: 2%;
 }
+@media screen and (max-width: 768px) {
+  .q-width {
+    width: 80%;
+    margin: 65px;
+
+  }
+}
 .btncolor {
-  background-color: blue;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: #579aff;
+  color: white;
+  font-size: 13px;
+}
+.btn-google {
+  background-image: url("https://news-cdn.softpedia.com/images/news2/the-new-google-logo-is-a-lesson-in-modern-design-490648-3.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-color: #fff;
+  border: 1px solid #e3e3e3;
+  border-radius: 5px;
+  font-size: 13px;
 }
 /* JUMBOBLUE */
 
@@ -133,26 +160,48 @@ body {
 
 /* SECTION 2 */
 
-/* SECTION 3 */
+/* CAROUSEL SECTION 3-5 */
+[class*="col-"] .fa-circle {
+  color: #1e7cfe;
+  cursor: pointer;
+}
 
-.position-relative {
+.heightdef {
   position: relative;
 }
-.commas::after {
-  content: ">";
-  font-size: 50px;
-  position: absolute;
-  top: 50%;
-  left: 80%;
-}
-.commas::before {
+.test::after {
   content: "<";
-  font-size: 50px;
   position: absolute;
-  top: 50%;
-  right: 80%;
+  top: 35%;
+  right: 100%;
+  font-size: 40px;
+  font-weight: bolder;
+  cursor: pointer;
+  display: block;
+
 }
-/* SECTION 3 */
+.test::before {
+  content: ">";
+  position: absolute;
+  top: 35%;
+  left: 100%;
+  font-size: 40px;
+  font-weight: bolder;
+  cursor: pointer;
+  display: block;
+}
+
+@media screen and (max-width:768px) {
+  .test::after {
+    display: none;
+  }
+  .test::before {
+    display: none;
+
+  }
+}
+
+/* CAROUSEL SECTION 3-5 */
 
 /* SECTION 4 */
 .color-grad {
@@ -177,27 +226,6 @@ body {
 }
 /* SECTION 4 */
 
-/* SECTION 5 */
-/* SECTION 5 */
-/* FOOTER */
-.arrow-l span {
-  line-height: 300px;
-  font-size: 50px;
-  float: right;
-}
-.arrow-r span {
-  line-height: 300px;
-  font-size: 50px;
-  float: left;
-}
-.heightdef {
-  height: 300px;
-}
-[class*="col-"] .fa-circle {
-  color: #1e7cfe;
-  cursor: pointer;
-}
-/* SECTION 5 */
 
 /* FOOTER */
 .foot-color {
