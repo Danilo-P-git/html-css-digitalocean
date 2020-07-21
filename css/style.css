@@ -38,6 +38,9 @@
     }
 }
 /* Bootstrap correction for navbar collapse in md size */
+.jumbotron {
+  margin-bottom: 0px;
+}
 
 .fa-bars {
   color: #3a8aff;
